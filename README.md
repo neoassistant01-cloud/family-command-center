@@ -1,16 +1,27 @@
-# React + Vite
+# Family Command Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Micro-SaaS coordination hub for busy families (3+ kids) to manage schedules, chores, and parent communication.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**🔗 Live URL:** https://family-command-center.netlify.app
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Family Calendar** - Color-coded events by kid with monthly view
+- **Chore Rotation** - Assign and track chores with completion streaks  
+- **Parent Messaging** - Quick parent-to-parent messages
+- **Notifications** - Browser alerts for upcoming events
+- **Mobile-First** - Bottom tabs on mobile, sidebar on desktop
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- localStorage for data persistence
+- Netlify deployment
+
+## Deployment
+
+```bash
+netlify deploy --prod --dir=dist
+```
